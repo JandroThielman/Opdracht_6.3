@@ -1,0 +1,30 @@
+ul, a, li{
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.Q{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 15px 0 15px;
+}
+
+.T{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 15px 0 15px;
+}
+
+body{
+    margin-left: 15vw;
+}
